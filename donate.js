@@ -15,6 +15,8 @@ export const main = async event => {
       'value': requestParams.amount,
       'currency': 'RUB'
     },
+    'capture': true,
+    "description": `Purpose: ${requestParams.purpose}`,
     'payment_method_data': {
       'type': 'bank_card'
     },
