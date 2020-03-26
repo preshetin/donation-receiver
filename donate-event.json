@@ -1,0 +1,7 @@
+{
+  "queryStringParameters": {
+    "email": "donor@example.com",
+    "amount": "3.00",
+    "purpose": "Уставная деятельнось"
+  }
+}
